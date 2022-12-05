@@ -26,8 +26,8 @@ email: norbitay@hotmail.com
 facebook_username: 
 twitter_username: 
 instagram_username: 
-linkedin_username: thedevslot
-github_username:  norbitay
+linkedin_username: zhili-liu
+github_username:
 youtube_channel_id: 
 reddit_username: 
 behance_username: 
@@ -38,16 +38,16 @@ spotify_username:
 google-analytics: UA-163806439-1
 
 # Disqus
-disqus-shortname: thedevslot
+disqus-shortname:
 
 # Name of the Author
 author-name: Zhili Liu
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: assets/images/headshot.jpg
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: Aspiring finance professional majoring in Finance at Baruch College (graduating 2023) and planning to continue master studies in 2023. I previously in the human resources recruiting and talent in both Shanghai and New York.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://www.linkedin.com/in/zhili-liu
 
 # SASS
 sass:
