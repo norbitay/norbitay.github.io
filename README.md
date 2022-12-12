@@ -1,5 +1,33 @@
-# WhatATheme
-**WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio.
+# zhili-liu.com
+
+The source for [zhili-liu.com](https://zhili-liu.com). The website is built from Jekyll website builder.
+
+## Adding pages
+
+### Blog posts
+
+1. Create a new file in `_posts` for the new blog post. The file
+   name begins with the date followed by a name that shows in the
+   URL.
+   
+   The easiest way to do this to copy an existing post and then
+   rename the file.
+2. Open the file you created and edit the information in the header.
+   
+   That's the part at the top between the first `---` and the second
+   `---`.
+3. Create a picture for the blog post. The size should be
+   1280 x 720 px (but doesn't be). The picture MUST go into the folder `assets\blog`.
+   
+   Give it a descriptive name so that you remember what the name is.
+   
+   Take note of the file extension. It is a `.png` or `.jpg` file.
+
+   In the header section, make sure that `post-image` has the right file name.
+
+## Checking locally
+
+
 
 #### You can checkout the [**Demo Here**](https://thedevslot.github.io/WhatATheme/) :boom:
 

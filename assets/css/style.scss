@@ -333,12 +333,15 @@ a.navbar-item.is-active {
         ul, ol {
             display: inline-block;
         }
+        p {
+            line-height: 2;
+        }
     }
 
     .container {
         margin: 2.5rem auto;
         word-break: break-word;
-        max-width: -webkit-fill-available;
+        max-width: 800px;
     }
 
     #disqus_thread {
