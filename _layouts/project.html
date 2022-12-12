@@ -4,28 +4,30 @@ layout: compress
 
 <!DOCTYPE html>
 <html>
-
-<head>
-    {% include head.html %}
-</head>
+{% include head.html %}
 
 <body>
     {% include navbar.html %}
-
-    <!--Main Section-->
-    <section class="hero is-fullheight" id="project">
+    <section class="hero is-fullheight">
         <div class="hero-body">
-            <div class="container has-text-centered">
+            <div class="container has-text-centered" id="page-section">
                 <div class="section">
-                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Projects</p>
+                    <h1 class="title is-1 is-uppercase has-text-weight-bold">
+                        {{page.title}}
+                    </h1>
+                    <hr class="has-background-black">
+                    <div class="content is-marginless">
+                        {{ content }}
+                        {% if page.document != nil %}
+                           <iframe src="{{site.url}}{{site.baseurl}}/assets/projects/{{page.document}}" width="800px" height="1000px"/>
+                            Have document
+                        {% endif %}
+                    </div>
                 </div>
-                {% include project-card.html %}
             </div>
         </div>
     </section>
-    </div>
-
-    <!--Footer-->
+    <!--Footer begins here-->
     {% include footer.html %}
 </body>
 

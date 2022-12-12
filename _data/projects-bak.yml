@@ -1,0 +1,4 @@
+- name: Time Series Volatility Models
+  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  link:
+  description: Time series model for predicting S&P 500 volatility.

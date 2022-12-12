@@ -82,6 +82,20 @@ defaults:
       type: 'pages'
     values:
       layout: page
+  
+  -
+    scope:
+      type: 'projects'
+    values:
+      layout: project
+      post-image: ""
+      description: ""
+      tags:
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 # Exclude
 exclude:
