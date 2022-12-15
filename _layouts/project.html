@@ -20,9 +20,11 @@ layout: compress
                         {{ content }}
                         {% if page.document != nil %}
                            <div>
+                                 <a href="{{site.url}}{{site.baseurl}}/assets/projects/{{page.document}}">▼ Download</a>
+                           </div>
+                           <div>
                                 <embed src="{{site.url}}{{site.baseurl}}/assets/projects/{{page.document}}" class="embeded-document"/>
                            </div>
-                           <a href="{{site.url}}{{site.baseurl}}/assets/projects/{{page.document}}">▼ Download</a>
                         {% endif %}
                     </div>
                 </div>
