@@ -19,8 +19,10 @@ layout: compress
                     <div class="content is-marginless">
                         {{ content }}
                         {% if page.document != nil %}
-                           <iframe src="{{site.url}}{{site.baseurl}}/assets/projects/{{page.document}}" width="800px" height="1000px"/>
-                            Have document
+                           <div>
+                                <embed src="{{site.url}}{{site.baseurl}}/assets/projects/{{page.document}}" class="embeded-document"/>
+                           </div>
+                           <a href="{{site.url}}{{site.baseurl}}/assets/projects/{{page.document}}">▼ Download</a>
                         {% endif %}
                     </div>
                 </div>
