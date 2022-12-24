@@ -102,7 +102,8 @@ real website.
 
 3. Input a message describing what you changed, then select **Commit**
 
-4. 
+4. Publish your changes by selecting **Sync Changes** (the button text changes once you committed from
+   the prior step).
 
 ### Using a Terminal Window
 
