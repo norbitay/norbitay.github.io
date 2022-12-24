@@ -27,55 +27,55 @@ The source for [zhili-liu.com](https://zhili-liu.com). The website is built from
 
 ## Checking locally
 
+You should test changes on your computer before uploading to your website. That way
+you know what it will look like before everyone else knows.
 
+Follow the steps below to test locally:
 
-#### You can checkout the [**Demo Here**](https://thedevslot.github.io/WhatATheme/) :boom:
+1. Open a terminal window in the same folder as this README file. You can do this in a
+   a couple ways:
 
-![WhatATheme](assets/images/meta.jpg)
+   If you are using Visual Studio Code, select the *Terminal* tab
+   Otherwise, select the Windows Start button, then type Terminal, finally change to
+   the directory containing the file.
 
-# Features :sparkles:
-* Free and Easy setup
-* No Coding Required
-* Compatible with [Github Pages](https://pages.github.com/)
-* Responsive and Blogging Ready
-* HTML Compressor using [Jekyll Compress HTML](https://jch.penibelst.de/)
-* Minified CSS using SaSS
-* CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
-* Supports Latest [Jekyll 4.x](https://jekyllrb.com/) and [Bundler](https://bundler.io/)
-* Stylesheet built using SaSS
-* Comments using Disqus
-* Analytics using Google Analytics
-* Instant Search using [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search/)
+2. In the terminal window, input the command to start your website locally:
 
-# Installation :books:
-### System Requirements
-* [Ruby](https://www.ruby-lang.org/en/)
-* [Jekyll](https://jekyllrb.com/)
-> You can read **What is Jekyll** [**here**](https://thedevslot.github.io/WhatATheme/blog/what-is-jekyll-how-to-use-it)
-### Up and Running
-* Fork the [Repository](https://github.com/thedevslot/WhatATheme/)
-* Clone or download the repository into directory of your choice: `git clone https://github.com/thedevslot/WhatATheme.git`
-* Inside the directory run `bundle install`
-* Host WhatATheme locally by running `bundle exec jekyll s`
+   `bundle exec jekyll serve`
 
-> You can read **How to Install and use WhatATheme?** [**here**](https://thedevslot.github.io/WhatATheme/blog/how-to-install-whatatheme)
+3. Navigate to your website from your computer. You can either click the link in the
+   terminal output or directly go to http://127.0.0.1:4000 in a web browser.
 
-[<img src="https://i.imgur.com/TVI946Z.png" width="250" />](https://youtu.be/VfPa2c9kwhQ)
+   Once the website is running, you can edit files on you computer and it will update
+   the website automatically.
 
----
+4. Stop your local website by typing *Ctrl + c*.
 
-### Content Credits :green_heart:
-* [Hero Image](https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) used as a background image in the very first section of Homepage.
-* [Author Image](https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png) used in the Author Section.
-* [Font Awesome](https://fontawesome.com/)
-* [Poppins Font](https://fonts.google.com/specimen/Poppins)
-* [Memphis Pattern](https://www.freepik.com/free-vector/memphis-pattern-background_4034913.htm#page=1&query=memphis%20pattern&position=23) used for some Social Media Images and the Favicon.
+   You will be prompted twice with `Terminate batch job (Y/N)? y
 
----
+## Commit and publish your changes
 
-### Credits :bulb:
-* [Sneha Omer](http://sassyecoder.github.io/)
-* [Harsh Trivedi](http://harsh98trivedi.github.io/)
+Once you are satisfied with the changes as viewed from your computer, you need to update your
+real website. 
 
-### License
-The contents of this repository are licensed under the [**GNU General Public License v2.0**](https://github.com/thedevslot/WhatATheme/blob/master/LICENSE)
+1. In the terminal window, input the command below to see what changes you made:
+
+   `git status`
+
+   You will see a list of files that changes. Check that the files you think you changed are
+   actually what was changed.
+
+2. In the terminal window, input the command below to indicate you want add of the changed
+   files to be changed on your website.
+
+   `git add *`
+
+3. In the terminal window, input the command below to commit the changes. You should put in a message
+   to indicate that what changed.
+
+   `git commit -m "I changed something"`
+
+4. In the terminal window, input the command below to publish your changes so that your website updates:
+
+   `git push`
+
