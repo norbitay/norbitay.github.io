@@ -1,6 +1,10 @@
 # zhili-liu.com
 
-The source for [zhili-liu.com](https://zhili-liu.com). The website is built from Jekyll website builder.
+The source for [zhili-liu.com](https://zhili-liu.com). The website is built from Jekyll
+website builder.
+
+This file is written in Markdown. If you are using Visual Studio Code, choose to preview
+this file to see a nicely formatted version.
 
 ## Working with this website
 
@@ -60,7 +64,8 @@ Follow the steps below to test locally:
 
 4. Stop your local website by typing *Ctrl + c*.
 
-   You will be prompted twice with `Terminate batch job (Y/N)? y
+   You will be prompted twice with `Terminate batch job (Y/N)?`. Input `y` then press `Enter`
+   twice.
 
 ## Adding pages
 
