@@ -7,6 +7,10 @@
     opacity: 0.95;
 }
 
+.navbar, .navbar-menu {
+    background-color: rgb(150,150,150) !important;
+}
+
 .is-active {
     font-weight: 600;
 }
@@ -57,7 +61,7 @@ a.navbar-item.is-active {
         bottom: 0px;
         left: 0px;
         position: absolute;
-        opacity: 0.25;
+        opacity: 0.75;
         content: "";
     }
 }
