@@ -23,7 +23,11 @@ layout: compress
                                  <a href="{{site.url}}{{site.baseurl}}/assets/projects/{{page.document}}">▼ Download</a>
                            </div>
                            <div>
+                                {% if page.preview %}
+                                <img src="{{site.url}}{{site.baseurl}}/assets/projects/{{page.preview}}" class="embeded-document"/>
+                                {% else %}
                                 <embed src="{{site.url}}{{site.baseurl}}/assets/projects/{{page.document}}" class="embeded-document"/>
+                                {% endif %}
                            </div>
                         {% endif %}
                     </div>

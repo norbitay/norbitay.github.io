@@ -90,6 +90,10 @@ Follow the steps below to test locally:
 
    In the header section, make sure that `post-image` has the right file name.
 
+### Projects
+
+
+
 ## Commit and publish your changes
 
 Once you are satisfied with the changes as viewed from your computer, you need to update your
