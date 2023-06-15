@@ -72,3 +72,21 @@ hr {
         }
     }
 }
+
+/* Tables for accounting transparent */
+
+.income-statement {
+        tr {
+            border: none !important;
+        }
+        td {
+            border: none !important;
+        }
+        th {
+            border: none !important;
+        }
+        .sum {
+            border-top: 1px solid black !important;
+            font-weight: bold;
+        }
+}

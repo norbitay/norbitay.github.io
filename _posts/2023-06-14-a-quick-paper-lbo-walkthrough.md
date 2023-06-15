@@ -1,7 +1,7 @@
 ---
 title: A Quick Paper LBO Walkthrough
 layout: post
-post-image: "brevity.jpg"
+post-image: "lbo.jpg"
 description:
 tags:
 - Private Equity 
@@ -55,9 +55,9 @@ $$
 
 **Step 2: Forecast the financials and free cash flows for the holding period. We need to find out the cumulative cash flow because it is going to be used for the debt paydown. Cash flow is equal to net income plus D&A (non-cash expenses) and subtract CapEx (cash outflow). To find out net income, we use revenue to multiply the EBITDA margin, then minus the sum of D&A, interest payments and taxes (see below table).**
 
-<table>
+<table class="income-statement">
    <thead>
-     <tr style="border-bottom: 2em solid transparent">
+     <tr>
        <th></th>
        <th>2022A</th>
        <th>2023E</th>
@@ -66,7 +66,7 @@ $$
      </tr>
    </thead>
    <tbody>
-     <tr style="border-bottom: 2em solid transparent">
+     <tr>
        <th>Revenue</th>
        <td>300</td>
        <td>330</td>
@@ -81,13 +81,13 @@ $$
        <td>200</td>
      </tr>
      <tr>
-       <td style="padding-left: 2em; border-bottom: 2em solid transparent">Less: D&A</td>
+       <td style="padding-left: 2em; border-bottom">Less: D&A</td>
        <td></td>
        <td>(33)</td>
        <td>(36)</td>
        <td>(40)</td>
      </tr>
-    <tr>
+    <tr class="sum">
        <th>EBIT</th>
        <td></td>
        <td>132</td>
@@ -101,7 +101,7 @@ $$
        <td>(30)</td>
        <td>(30)</td>
      </tr>
-    <tr>
+    <tr class="sum">
        <th>EBT</th>
        <td></td>
        <td>102</td>
@@ -115,7 +115,7 @@ $$
        <td>(24)</td>
        <td>(27)</td>
      </tr>
-     <tr>
+     <tr class="sum">
        <th>NI</th>
        <td></td>
        <td>81</td>
@@ -143,7 +143,7 @@ $$
        <td>0</td>
        <td>0</td>
      </tr>
-     <tr>
+     <tr class="sum">
        <th>Cash Flow</th>
        <td></td>
        <td>81</td>
@@ -153,7 +153,7 @@ $$
     <tr>
        <th>Cumulative Cash Flow </th>
        <td></td>
-       <td>274</td>
+       <td style="font-weight: bold;">274</td>
        <td></td>
        <td></td>
      </tr>

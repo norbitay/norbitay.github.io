@@ -366,3 +366,10 @@ a.navbar-item.is-active {
     width: 100%;
     min-height: 400px;
 }
+
+.MathJax_Display {
+    @media (max-width: 768px) {
+        width: 450px !important;
+        overflow-x: scroll !important;
+    }
+}
