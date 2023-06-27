@@ -74,7 +74,6 @@ hr {
 }
 
 /* Tables for accounting transparent */
-
 .income-statement {
         tr {
             border: none !important;
@@ -89,4 +88,21 @@ hr {
             border-top: 1px solid black !important;
             font-weight: bold;
         }
+}
+
+/* Summary tables have header with lines and then an ending line */
+.summary-table  {
+    width: unset !important;
+
+    tr td {
+        border: none;
+    }
+    tr:first-child th {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    tr:last-child td {
+        border-bottom: 1px solid black;
+        border-bottom-width: unset !important;
+    }
 }
