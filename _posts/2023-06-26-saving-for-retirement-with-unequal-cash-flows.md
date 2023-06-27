@@ -26,7 +26,7 @@ To solve this problem, we can first take a backward look at the retirement perio
 <tr><td>PV*</td><td>$1,825,709.13</td></tr>
 </table>
 
-At age 64, in order to ski in the Alps and spend simmers in Europe, Mark needs to have $1,825,709.13 in order to take out $200,000 for the next 20 years. However, we need to figure out the amount of savings needed for the period from age 37 to 64 (red). The present value of the annuity at age 64 is the tantamount to the future value of the savings at age 36. How much savings does Mark need to have at age 36 to achieve his retirement goal? We can discount the amount of $1,825,709.13 back for 28 periods. 
+At age 64, to be able to ski in the Alps and spend simmers in Europe, Mark needs to have $1,825,709.13 in order to take out $200,000 for the next 20 years. However, we need to figure out the amount of savings needed for the period from age 37 to 64 (red). The present value of the annuity at age 64 is the tantamount to the future value of the savings at age 36. How much savings does Mark need to have at age 36 to achieve his retirement goal? We can discount the amount of $1,825,709.13 back for 28 periods. 
 
 <table class="summary-table">
 <tr><th>Notation</th><th>Numerical Value</th></tr>
