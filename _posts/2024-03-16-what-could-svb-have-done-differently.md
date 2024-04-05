@@ -1,5 +1,5 @@
 ---
-title: What could SVB have done differently
+title: What Could SVB Have Done Differently?
 layout: post
 post-image: "donedifferently.jpg"
 description:
@@ -14,11 +14,11 @@ Reflecting on these events, I propose the three following advice that could have
 
 Duration risks were one of the underlying factors that fatally contributed to SVB’s collapse. In pursuit of combating inflation, the Fed increased rates eleven times since March 2022 and. The Fed rate hikes inversely affected the present value of bond prices. As interest rates went up, the market prices of the future cash flows from fixed income securities decreased. SVB mismatched its deposits with loans and heavily invested in long-term government bonds. 
 
-By the end of 2022, SVB had a total asset value of $211 billion (as per page 17 of Harvard case study) and held $117 billion of securities, constituting the single largest portion of its portfolio. Unfortunately, the rate hikes decreased the market price of the bonds and resulted in $15.9 billion unrealized losses for SVB’s Hold-To-Maturity (HTM) securities. 
+By the end of 2022, SVB had a total asset value of $211 billion and held $117 billion of securities, constituting the single largest portion of its portfolio. Unfortunately, the rate hikes decreased the market price of the bonds and resulted in $15.9 billion unrealized losses for SVB’s Hold-To-Maturity (HTM) securities. 
 
 Unrealized losses would not materialize if the bank could hold these securities until maturity, ensuring the receipt of the entire cash flows. Unfortunately, a bank run occurred. From the perspective of economics, bank runs are a classic example of prisoner’s dilemma. If depositors refrain from panic, keep their money at the bank and withdraw as planned, no one need worry about accessing their deposits. However, in times of panic, depositors might fear that if others withdraw their money and they do not, they may face difficulties receiving their deposits. If most depositors seek to take out their funds simultaneously, then the result is a scenario where the majority are unable to access their deposits. This is what exactly happened to SVB. 
 
-When depositors became aware that the bank fell short on capital, panic ensued, rapidly spreading through social media. Depositors started withdrawing their deposits in waves. SVB did not have sufficient reserves to meet the surge in withdrawals and had to liquidate these HTM securities at significant losses. This directly led to the bankruptcy of SVB.
+When depositors became aware that the bank fell short on capital, panic ensued, rapidly spreading through social media. Depositors started withdrawing their deposits in waves. SVB did not have sufficient reserves to meet the surge in withdrawals and had to liquidate these HTM securities at significant losses. This directly led to insolvency of SVB.
 
 As opposed to consumer banking, which mainly serves individual checking and savings accounts, the majority of SVB’s clients were corporations. They used the accounts at SVB for the purpose of payroll, typically involving much larger deposits held in their accounts compared to other individual checking and savings accounts. Banking is a relationship business. This specialization expedited the growth of SVB, but in times of uncertainty, it became a contributing factor to its bank failure.
 
