@@ -5,7 +5,7 @@ post-image: "loss.png"
 description:
 ---
 
-Last Friday, I gave a talk to a group of diverse group of professionals to explore a deceptively simple question in behavioral finance: Why is it so difficult to walk away from a losing position?
+Last Friday, I gave a talk to a diverse group of professionals to explore a deceptively simple question in behavioral finance: Why is it so difficult to walk away from a losing position?
 
 To illustrate this, I invited the audience to participate in a series of hypothetical coin-flip bets. In the first round, the stakes were symmetrical: Heads, you win $100; Tails, you lose $100. Despite it being a perfectly fair bet, very few hands went up. 
 
