@@ -1,5 +1,5 @@
 ---
-title: From The Anatomy of Loss
+title: The Anatomy of Loss
 layout: post
 post-image: "loss.png"
 description:
