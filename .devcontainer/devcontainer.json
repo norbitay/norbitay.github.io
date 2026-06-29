@@ -6,7 +6,10 @@
         "vscode": {
             "settings": {},
             "extensions": [
-                "streetsidesoftware.code-spell-checker"
+                "streetsidesoftware.code-spell-checker",
+                "mathematic.vscode-pdf",
+                "DavidAnson.vscode-markdown",
+                "ms-python.python"
             ]
         }
     },
@@ -16,5 +19,6 @@
             "label": "Application",
             "onAutoForward": "notify"
         }
-    }
+    },
+    "postCreateCommand": "bundle install"
 }

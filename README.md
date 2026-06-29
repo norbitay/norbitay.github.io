@@ -92,8 +92,6 @@ Follow the steps below to test locally:
 
 ### Projects
 
-
-
 ## Commit and publish your changes
 
 Once you are satisfied with the changes as viewed from your computer, you need to update your
